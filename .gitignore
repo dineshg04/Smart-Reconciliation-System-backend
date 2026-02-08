@@ -1,0 +1,55 @@
+# ────────────────────────────────────────────────
+#              Common to both backend & frontend
+# ────────────────────────────────────────────────
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp*
+.pnp.js
+
+# Environment & secrets (VERY IMPORTANT!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Logs & temp files
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing & coverage
+coverage/
+.nyc_output/
+
+# ────────────────────────────────────────────────
+#                    Backend (Node/Express)
+# ────────────────────────────────────────────────
+
+# Build / dist (if you ever bundle backend)
+dist/
+build-backend/
+
+# MongoDB / database dumps (if you create any locally)
+*.dump
+*.mongodump
+
+
