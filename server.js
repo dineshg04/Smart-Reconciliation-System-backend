@@ -12,7 +12,7 @@ const recordcorrectionrouter = require('./src/routes/recordcorrectionroutes');
 
 
 
-app.use(cors());
+app.use(cors({origin:"*"}));
 app.use(express.json());
 app.use('/api/auth/',authrouter);
 app.use('/api/auth/uploadfile/',uploadrouter);
